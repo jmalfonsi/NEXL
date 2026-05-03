@@ -1,7 +1,3 @@
-Voici les instructions détaillées pour quantifier vous-même GPT-OSS 20B ou Qwen 3 14B en AWQ INT4, prêtes à être intégrées à la documentation technique du projet.
-
----
-
 ## Annexe Technique – Quantification AWQ INT4 des Modèles de Base
 
 Cette section décrit la procédure pour quantifier en AWQ 4-bit les modèles GPT-OSS 20B et Qwen 3 14B, en utilisant **AutoRound** (recommandé pour sa qualité) ou l’outil intégré de SGLang. Les poids résultants sont au format **safetensors**, directement utilisables avec SGLang et compatibles avec la couche de sécurité (validation SHA-256, scan NaN/Inf, norme L2).
